@@ -1,0 +1,7 @@
+<p>
+  main works!
+</p>
+<button (click)="getDatabases()" class="btn blue animated pulse">Get Databases</button>
+<ul>
+  <li *ngFor="let db of databases">{{ db.Name }}</li>
+</ul>

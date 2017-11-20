@@ -1,0 +1,26 @@
+
+<nav class="nav-extended blue">
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Cultural PC Issues</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+  </div>
+  <div class="nav-content">
+    <ul class="tabs tabs-transparent">
+      <li class="tab"><a routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
+      <li class="tab"><a routerLink="/issues" [routerLinkActive]="['active']">Incidencias</a></li>
+      <li class="tab"><a routerLink="/admin" [routerLinkActive]="['active']">Administración</a></li>
+      <li class="tab"><a href="#test4">Test 4</a></li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
