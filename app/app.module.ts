@@ -10,6 +10,7 @@ import { AdminComponent } from './admin/admin.component';
 import { HttpModule } from '@angular/http';
 import { ApiService } from './api.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     MainComponent,
     IssuesComponent,
-    AdminComponent
+    AdminComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

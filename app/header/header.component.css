@@ -1,0 +1,23 @@
+
+.logo-cultural {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url("logo.png") no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.brand-logo {
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.button {
+    padding-left: 20px;
+    float: left;
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+}
